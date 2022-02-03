@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.impl.RegistrationController">
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1200.0" style="-fx-background-color: #F5DEB3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="485.0" layoutY="168.0" text="Username">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="526.0" layoutY="33.0" text="Registration">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="233.0" text="Password">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="433.0" layoutY="306.0" text="Submit password">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="651.0" layoutY="163.0" prefHeight="38.0" prefWidth="166.0" promptText="Username" style="-fx-background-color: white;" />
+      <PasswordField fx:id="password" layoutX="651.0" layoutY="228.0" prefHeight="38.0" prefWidth="166.0" promptText="Password" style="-fx-background-color: white;" />
+      <PasswordField fx:id="submittedPassword" layoutX="651.0" layoutY="297.0" prefHeight="38.0" prefWidth="166.0" promptText="Submit password" style="-fx-background-color: white;" />
+      <Button fx:id="createBtn" layoutX="526.0" layoutY="437.0" mnemonicParsing="false" onAction="#processCreateBtn" prefHeight="52.0" prefWidth="149.0" style="-fx-background-color: A52A2A;" text="Create account" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="16.0" />
+         </font>
+      </Button>
+         <Label fx:id="errorMessage" layoutX="503.0" layoutY="396.0" prefHeight="18.0" prefWidth="300.0" />
+   </children>
+</Pane>
+</AnchorPane>
