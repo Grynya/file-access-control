@@ -1,3 +1,0 @@
-diff --git a/src/main/java/sample/controllers/registration/handlers/impl/ValidPasswordHandler.java b/src/main/java/sample/controllers/impl/ValidPasswordHandler.java
-rename from src/main/java/sample/controllers/registration/handlers/impl/ValidPasswordHandler.java
-rename to src/main/java/sample/controllers/impl/ValidPasswordHandler.java
